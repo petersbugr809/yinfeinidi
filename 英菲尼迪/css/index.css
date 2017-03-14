@@ -1,0 +1,441 @@
+/*通用样式*/
+    img{
+        width: 100%;
+        height: 100%;
+        display:block;
+    }
+    #logo{
+      width: 8.8%;
+      height: 2.7%;
+      position:fixed;
+      bottom:1.66%;
+      left:45.6%;
+      z-index: 5;
+    }
+    .music{
+      width: 6.67%;
+      height: 4.14%;
+      position:fixed;;
+      right:10%;
+      bottom:3.73%;
+      z-index: 5;
+      animation-name: music;
+      animation-duration: 1s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      -webkit-animation-name: music;
+      -webkit-animation-duration: 1s;
+      -webkit-animation-timing-function: linear;
+      -webkit-animation-iteration-count: infinite;
+    }
+    @keyframes music{
+      0%{transform: rotateZ(0deg);}
+      50%{transform: rotateZ(-180deg);}
+      100%{transform: rotateZ(-360deg);}
+    }
+    @-webkit-keyframes music{
+      0%{-webkit-transform: rotateZ(0deg);}
+      50%{-webkit-transform: rotateZ(-180deg);}
+      100%{-webkit-transform: rotateZ(-360deg);}
+    }
+    
+/*第一页样式开始*/
+   .bg{
+    width: 100%;
+    height: 100%;
+   }
+   .page1{
+    width: 57%;
+    height: 13%;
+    position:absolute;
+    top:72.8%;
+    left:2.67%;
+   }
+   .page2{
+    width: 37.3%;
+    height: 9.12%;
+    position:absolute;
+    top:76.78%;
+    right:0;
+   }
+/*第一页样式结束*/
+
+/*第二页样式开始*/
+    .sentence1{
+      width: 44.1%;
+      height: 2.48%;
+      position:absolute;
+      top:5.8%;
+      left:6.67%;
+    }
+    .sentence2{
+      width: 64.27%;
+      height: 2.48%;
+      position:absolute;
+      top:10.61%;
+      left:6.67%;
+    }
+    .sentence3{
+      width: 60.03%;
+      height: 2.48%;
+      position:absolute;
+      top:15.34%;
+      left:6.67%;
+    }
+    .sentence4{
+      width: 34.53%;
+      height: 4.15%;
+      position:absolute;
+      top:19.49%;
+      left:6.67%;
+    }
+    .car1{
+      width: 46%;
+      height: 22.97%;
+      position:absolute;
+      top:50%;
+      left:0;
+    }
+/*第二页结束*/
+
+/*第三页开始*/
+    .sentence5{
+      width: 36%;
+      height: 2.65%;
+      position:absolute;
+      top:5.64%;
+      left:6.67%;
+    }
+    .sentence6{
+      width: 60%;
+      height: 2.32%;
+      position:absolute;
+      top:10.75%;
+      left:6.67%;
+    }
+    .sentence7{
+      width: 40%;
+      height: 2.49%;
+      position:absolute;
+      top:15.51%;
+      left:6.67%;
+    }
+    .sentence8{
+      width: 24%;
+      height: 2.49%;
+      position:absolute;
+      top:20.73%;
+      left:6.67%;
+    }
+    .sentence9{
+      width: 16%;
+      height: 4.15%;
+      position:absolute;
+      top:24.46%;
+      left:6.67%;
+    }
+    .sentence10{
+      width: 16%;
+      height: 2.49%;
+      position:absolute;
+      top:25.7%;
+      left:24%;
+    }
+    /*第三页结束*/
+
+    /*第四页开始*/
+    .sentence11{
+      width: 76.27%;
+      height: 2.57%;
+      position:absolute;
+      top:5.55%;
+      right:6.4%;
+    }
+    .sentence12{
+      width: 64.13%;
+      height: 2.65%;
+      position:absolute;
+      top:10.36%;
+      right: 6.4%;
+    }
+    .sentence13{
+      width: 34.13%;
+      height: 4.15%;
+      position:absolute;
+      top:14.51%;
+      right:6.4%;
+    }
+    .car2{
+      width: 58.67%;
+      height: 28.03%;
+      position:absolute;
+      bottom:10.78%;
+      right:0;
+    }
+/*第四页结束*/
+
+/*第五页开始*/
+    .sentence14{
+      width: 44%;
+      height: 2.49%;
+      position:absolute;
+      top:5.64%;
+      left:6.67%;
+    }
+    .sentence15{
+      width: 16%;
+      height: 2.49%;
+      position:absolute;
+      top:10.75%;
+      left:6.67%;
+    }
+    .sentence16{
+      width: 44%;
+      height: 2.49%;
+      position:absolute;
+      top:15.51%;
+      left:6.67%;
+    }
+    .sentence17{
+      width: 16%;
+      height: 2.49%;
+      position:absolute;
+      top:20.73%;
+      left:6.67%;
+    }
+    .sentence18{
+      width: 16%;
+      height: 4.15%;
+      position:absolute;
+      top:24.46%;
+      left:6.67%;
+    }
+    .sentence19{
+      width: 16.67%;
+      height: 2.49%;
+      position:absolute;
+      top:25.7%;
+      left:24%;
+    }
+    /*第五页结束*/
+
+    /*第六页开始*/
+    .sentence20{
+      width: 68.67%;
+      height: 2.9%;
+      position:absolute;
+      top:5.64%;
+      left:6.67%;
+    }
+    .sentence21{
+      width: 60.67%;
+      height: 2.9%;
+      position:absolute;
+      top:10.53%;
+      left:6.67%;
+    }
+    .sentence22{
+      width: 52.67%;
+      height: 2.9%;
+      position:absolute;
+      top:15.51%;
+      left:6.67%;
+    }
+    .sentence23{
+      width: 35.33%;
+      height: 4.15%;
+      position:absolute;
+      top:19.73%;
+      left:6.67%;
+    }
+    /*第六页结束*/
+
+    /*第七页开始*/
+    .sentence24{
+      width: 48%;
+      height: 2.9%;
+      position:absolute;
+      top:5.55%;
+      right:6.4%;
+    }
+    .sentence25{
+      width: 64.4%;
+      height: 2.9%;
+      position:absolute;
+      top:10.61%;
+      right: 6.4%;
+    }
+    .sentence26{
+      width: 16.67%;
+      height: 4.15%;
+      position:absolute;
+      top:14.26%;
+      right:24.4%;
+    }
+    .sentence27{
+      width: 16.27%;
+      height: 2.32%;
+      position:absolute;
+      top:15.34%;
+      right:6.4%;
+    }
+    /*第七页结束*/
+
+    /*第八页开始*/
+    .sentence28{
+      width: 52.4%;
+      height: 2.9%;
+      position:absolute;
+      top:5.8%;
+      left:6.67%;
+    }
+    .sentence29{
+      width: 64.53%;
+      height: 2.9%;
+      position:absolute;
+      top:10.78%;
+      left:6.67%;
+    }
+    .sentence30{
+      width: 60.67%;
+      height: 2.9%;
+      position:absolute;
+      top:15.75%;
+      left:6.67%;
+    }
+    .sentence31{
+      width: 35.33%;
+      height: 4.23%;
+      position:absolute;
+      top:19.73%;
+      left:6.67%;
+    }
+    /*第八页结束*/
+
+    /*第九页开始*/
+    .sentence32{
+      width: 72.53%;
+      height: 3.15%;
+      position:absolute;
+      top:10.36%;
+      left:14%;
+    }
+    .sentence33{
+      width: 15.33%;
+      height: 4.23%;
+      position:absolute;
+      top:14.59%;
+      left:33.87%;
+    }
+    .sentence34{
+      width: 18.66%;
+      height: 4.23%;
+      position:absolute;
+      top:14.59%;
+      left:49.07%;
+    }
+    /*第九页结束*/
+
+    /*第十页开始*/
+    .sentence35{
+      width: 81.33%;
+      height: 4.15%;
+      position:absolute;
+      top:5.39%;
+      left:4.15%;
+    }
+    .sentence36{
+      width: 59.92%;
+      height: 4.15%;
+      position:absolute;
+      top:11.19%;
+      left:4.15%;
+    }
+    .sentence37{
+      width: 63.3%;
+      height: 3.32%;
+      position:absolute;
+      top:18.66%;
+      left:4.15%;
+    }
+    .sentence38{
+      width: 71.47%;
+      height: 3.32%;
+      position:absolute;
+      top:24.46%;
+      left:4.15%;
+    }
+    .sentence39{
+      width: 46%;
+      height: 2.49%;
+      position:absolute;
+      top:30.85%;
+      left:4.15%;
+    }
+    .sentence40{
+      width: 46.8%;
+      height: 2.65%;
+      position:absolute;
+      top:36.86%;
+      left:4.15%;
+    }
+    .sentence41{
+      width: 69.6%;
+      height: 5.39%;
+      position:absolute;
+      top:42.7%;
+      left:4.15%;
+    }
+    .sentence42{
+      width: 62.13%;
+      height: 2.49%;
+      position:absolute;
+      top:51.82%;
+      left:4.15%;
+    }
+    /*第十页结束*/
+
+    /*第十一页开始*/
+    .video1{
+      width: 6.8%;
+      height: 2.16%;
+      position:absolute;
+      top:2.19%;
+      right:4.67%;
+    }
+    .video2{
+      width: 16%;
+      height: 1.82%;
+      position:absolute;
+      top:6.63%;
+      right:4.67%;
+    }
+    .video3{
+      width: 80.13%;
+      height: 3.32%;
+      position:absolute;
+      top:17.41%;
+      left:10.4%;
+    }
+    #video4{
+      width: 27.2%;
+      height: 16.92%;
+      position:absolute;
+      top:42.29%;
+      left:36%;
+    }
+    .video5{
+      width: 19.33%;
+      height: 1.74%;
+      position:absolute;
+      bottom:7.46%;
+      left:40%;
+    }
+    /*.video6{
+      width: 100%;
+      height: 34.99%;
+      position:absolute;
+      bottom:31.09%;
+      left:0%;
+    }*/
+    /*第十一页结束*/
